@@ -1,1 +1,1 @@
-include ':tablayoutdemo'
+include ':tablayoutdemo', ':quxiananamation'
