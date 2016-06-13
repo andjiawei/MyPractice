@@ -3,10 +3,10 @@
 
     <item
         android:state_selected="true"
-        android:drawable="@android:drawable/ic_btn_speak_now" />
+        android:drawable="@drawable/right_elph" />
 
     <item
         android:state_selected="false"
-        android:drawable="@android:drawable/ic_delete" />
+        android:drawable="@drawable/share_mail" />
 
 </selector>

@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     TabPagerAdapter adapter;
 
     private int [] iconsArr={android.R.drawable.ic_dialog_alert,android.R.drawable.ic_dialog_dialer,
-            android.R.drawable.ic_dialog_email,android.R.drawable.ic_dialog_info,
+            R.drawable.select_call,R.drawable.select_call,
             android.R.drawable.ic_dialog_map,android.R.drawable.ic_input_get
     };
     private static final String[] DATA = {"AigeStudio", "Aige", "Studio", "Android", "Java", "Design"};
@@ -51,8 +51,9 @@ public class MainActivity extends AppCompatActivity {
     private void setIcons() {
         for (int i=0;i<iconsArr.length;i++){//拿到每一个tab分别设置icon
             TabLayout.Tab tabCall = tablayout.getTabAt(i);
-//            tabCall.setIcon(iconsArr[i]);//只设置一个图标
-            tabCall.setCustomView(adapter.getTabView(i));//自定义的tab
+            tabCall.setIcon(iconsArr[i]);//只设置一个图标
+            tabCall.setText(DATA[i]);
+//            tabCall.setCustomView(adapter.getTabView(i));//自定义的tab
         }
     }
 
@@ -83,9 +84,12 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public CharSequence getPageTitle(int position) {
-            ITEM_CALL=position;
+//            ITEM_CALL=position;
+//
+//            return  DATA[ITEM_CALL];//如不需要文字 返回NULL即可
 
-            return  DATA[ITEM_CALL];//如不需要文字 返回NULL即可
+            return null;
+
         }
 
         public View getTabView(int position){
