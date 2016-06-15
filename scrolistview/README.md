@@ -1,0 +1,7 @@
+#ScrollView+两个gridView
+
+自定义控件可随意extends ListView或GridView 
+
+使用时copy布局文件和代码即可。
+
+我的项目中出现第一个GridView下方有大量空白，第二个GridView显示不全。不知道原因，解决方法是增大item布局的margin值，然后设置gridView负的verticalSpacing抵消。

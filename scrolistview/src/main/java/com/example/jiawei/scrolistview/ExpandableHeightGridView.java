@@ -6,7 +6,7 @@ import android.view.ViewGroup;
 import android.widget.GridView;
 
 /**
- * Created by QYer on 2016/6/15.
+ * Created by zjw on 2016/6/15.
  */
 public class ExpandableHeightGridView extends GridView {
 
