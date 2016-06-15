@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PracticeDemo.iml" filepath="$PROJECT_DIR$/PracticeDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/quxiananamation/quxiananamation.iml" filepath="$PROJECT_DIR$/quxiananamation/quxiananamation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scrolistview/scrolistview.iml" filepath="$PROJECT_DIR$/scrolistview/scrolistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/tablayoutdemo/tablayoutdemo.iml" filepath="$PROJECT_DIR$/tablayoutdemo/tablayoutdemo.iml" />
     </modules>
   </component>
