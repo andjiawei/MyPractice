@@ -10,3 +10,4 @@
     3 在mainActivity 中设置监听 InputMethodRelativeLayout.setOnSizeChangedListenner 
       重写onSizeChanged 方法 写需要隐藏的view和显示的view
       
+![image](https://github.com/androidjiawei/MyPractice/blob/master/loginsoftinput/screenshot/login.gif)
