@@ -1,8 +1,7 @@
 <com.example.jiawei.loginsoftinput.InputMethodRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/loginpage"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/iv_close"
@@ -15,12 +14,11 @@
 
     <ImageView
         android:id="@+id/iv_portrait"
-        android:layout_below="@id/iv_close"
-        android:layout_margin="20dp"
-        android:layout_centerHorizontal="true"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:layout_marginTop="60dp"
+        android:layout_below="@id/iv_close"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
         android:src="@drawable/login_appicon" />
 
 
@@ -28,10 +26,9 @@
         android:id="@+id/txt_username"
         android:layout_width="match_parent"
         android:layout_height="50dip"
+        android:layout_below="@id/iv_portrait"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_below="@id/iv_portrait"
-        android:layout_marginTop="20dp"
         android:hint="Email"
         android:imeOptions="actionNext"
         android:padding="5dip"
@@ -43,9 +40,9 @@
         android:id="@+id/et_pwd"
         android:layout_width="match_parent"
         android:layout_height="50dip"
+        android:layout_below="@id/txt_username"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_below="@id/txt_username"
         android:drawableRight="@drawable/viewpassword"
         android:hint="Password"
         android:imeOptions="actionDone"
@@ -53,28 +50,26 @@
         android:padding="5dip"
         android:singleLine="true"
         android:textCursorDrawable="@null"
-        android:layout_marginTop="20dp"
         android:textSize="16sp" />
 
-        <TextView
-            android:id="@+id/btn_login"
-            android:layout_below="@id/et_pwd"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dip"
-            android:layout_marginRight="10dip"
-            android:layout_marginTop="20dip"
-            android:layout_gravity="center_horizontal"
-            android:gravity="center_horizontal"
-            android:padding="10dip"
-            android:singleLine="true"
-            android:text="LOG IN "
-            android:textStyle="bold" />
-    <RelativeLayout
-        android:layout_alignParentBottom="true"
+    <TextView
+        android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_login"
+        android:layout_below="@id/et_pwd"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:gravity="center_horizontal"
+        android:padding="10dip"
+        android:singleLine="true"
+        android:text="LOG IN "
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp">
 
@@ -83,7 +78,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-            android:paddingTop="10dp"
             android:text="Sign Up Now" />
 
         <TextView
@@ -91,7 +85,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:paddingTop="10dp"
             android:text="Forgot Password" />
     </RelativeLayout>
 </com.example.jiawei.loginsoftinput.InputMethodRelativeLayout>
