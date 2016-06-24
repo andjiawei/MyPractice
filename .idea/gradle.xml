@@ -8,6 +8,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/expandlistdemo" />
+            <option value="$PROJECT_DIR$/fadingactionbardemo" />
+            <option value="$PROJECT_DIR$/loginsoftinput" />
             <option value="$PROJECT_DIR$/quxiananamation" />
             <option value="$PROJECT_DIR$/scrolistview" />
             <option value="$PROJECT_DIR$/tablayoutdemo" />
@@ -16,6 +19,9 @@
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/expandlistdemo" />
+            <option value="$PROJECT_DIR$/fadingactionbardemo" />
+            <option value="$PROJECT_DIR$/loginsoftinput" />
             <option value="$PROJECT_DIR$/quxiananamation" />
             <option value="$PROJECT_DIR$/scrolistview" />
             <option value="$PROJECT_DIR$/tablayoutdemo" />

@@ -1,1 +1,1 @@
-include ':tablayoutdemo', ':quxiananamation', ':scrolistview'
+include ':tablayoutdemo', ':quxiananamation', ':scrolistview', ':expandlistdemo', ':loginsoftinput', ':fadingactionbardemo'

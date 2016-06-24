@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         viewpager.setAdapter(adapter);
         tablayout.setupWithViewPager(viewpager);
 
-        setIcons();//如果不需要图标 删掉此方法即可
+//        setIcons();//如果不需要图标 删掉此方法打开getpagetitle
     }
 
     private void setIcons() {
@@ -84,11 +84,11 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public CharSequence getPageTitle(int position) {
-//            ITEM_CALL=position;
-//
-//            return  DATA[ITEM_CALL];//如不需要文字 返回NULL即可
+            ITEM_CALL=position;
 
-            return null;
+            return  DATA[ITEM_CALL];//如不需要文字 返回NULL即可
+
+//            return null;
 
         }
 
