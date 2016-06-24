@@ -1,6 +1,7 @@
 package com.example.jiawei.tablayoutdemo;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.PagerAdapter;
@@ -12,6 +13,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * tablayout 和 viewpager 一个 adapter 就这样
@@ -44,16 +48,39 @@ public class MainActivity extends AppCompatActivity {
         adapter = new TabPagerAdapter();
         viewpager.setAdapter(adapter);
         tablayout.setupWithViewPager(viewpager);
+        tablayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                for (Integer key: mapView.keySet()) {
+                    TextView textView = mapView.get(key);
+                    if(key==tab.getPosition()){
+                        textView.setTextColor(Color.RED);
+                    }else{
+                        textView.setTextColor(Color.BLACK);
+                    }
+                }
+            }
 
-//        setIcons();//如果不需要图标 删掉此方法打开getpagetitle
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+
+            }
+        });
+
+        setIcons();//如果不需要图标 删掉此方法打开getpagetitle
     }
 
     private void setIcons() {
         for (int i=0;i<iconsArr.length;i++){//拿到每一个tab分别设置icon
             TabLayout.Tab tabCall = tablayout.getTabAt(i);
-            tabCall.setIcon(iconsArr[i]);//只设置一个图标
-            tabCall.setText(DATA[i]);
-//            tabCall.setCustomView(adapter.getTabView(i));//自定义的tab
+//            tabCall.setIcon(iconsArr[i]);//只设置一个图标
+//            tabCall.setText(DATA[i]);//设置文字的颜色
+            tabCall.setCustomView(adapter.getTabView(i));//自定义的tab
         }
     }
 
@@ -84,21 +111,26 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public CharSequence getPageTitle(int position) {
-            ITEM_CALL=position;
+//            ITEM_CALL=position;
+//
+//            return  DATA[ITEM_CALL];//如不需要文字 返回NULL即可
 
-            return  DATA[ITEM_CALL];//如不需要文字 返回NULL即可
-
-//            return null;
+            return null;
 
         }
+        
+      
 
         public View getTabView(int position){
             View view = LayoutInflater.from(context).inflate(R.layout.tab_item, null);
             TextView tv= (TextView) view.findViewById(R.id.textView);
+            mapView.put(position,tv);
             tv.setText(DATA[position]);
+            tv.setTextColor(Color.RED);
             ImageView img = (ImageView) view.findViewById(R.id.imageView);
             img.setImageResource(iconsArr[position]);
             return view;
         }
     }
+    Map<Integer,TextView> mapView=new HashMap<Integer, TextView>();
 }
