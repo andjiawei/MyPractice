@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/PracticeDemo.iml" filepath="$PROJECT_DIR$/PracticeDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/expandlistdemo/expandlistdemo.iml" filepath="$PROJECT_DIR$/expandlistdemo/expandlistdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/fadingactionbardemo/fadingactionbardemo.iml" filepath="$PROJECT_DIR$/fadingactionbardemo/fadingactionbardemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmenttabhost/fragmenttabhost.iml" filepath="$PROJECT_DIR$/fragmenttabhost/fragmenttabhost.iml" />
       <module fileurl="file://$PROJECT_DIR$/loginsoftinput/loginsoftinput.iml" filepath="$PROJECT_DIR$/loginsoftinput/loginsoftinput.iml" />
       <module fileurl="file://$PROJECT_DIR$/quxiananamation/quxiananamation.iml" filepath="$PROJECT_DIR$/quxiananamation/quxiananamation.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrolistview/scrolistview.iml" filepath="$PROJECT_DIR$/scrolistview/scrolistview.iml" />
