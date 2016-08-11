@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><!--背景 bg_money_dialog-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_money_dialog"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center_horizontal"
+            android:hint="请输入提现金额" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="请输入提现密码" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="确认" />
+    </LinearLayout>
+    <ImageView
+        android:src="@android:drawable/ic_delete"
+        android:layout_gravity="bottom|left"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+</FrameLayout>

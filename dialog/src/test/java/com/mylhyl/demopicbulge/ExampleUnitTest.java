@@ -1,4 +1,4 @@
-package com.example.jiawei.camerademo;
+package com.mylhyl.demopicbulge;
 
 import org.junit.Test;
 
