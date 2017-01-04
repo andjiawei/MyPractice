@@ -1,1 +1,3 @@
-include ':tablayoutdemo', ':quxiananamation', ':scrolistview', ':expandlistdemo', ':loginsoftinput', ':fadingactionbardemo', ':fragmenttabhost', ':gaodelocation', ':mpchartdemo', ':verificode', ':testlocol'
+include ':tablayoutdemo', ':quxiananamation', ':scrolistview', ':expandlistdemo', ':loginsoftinput', ':dialoganimation',
+        ':fadingactionbardemo', ':fragmenttabhost', ':gaodelocation', ':mpchartdemo', ':verificode',
+        ':testlocol', ':albumphotodemo', ':ormlitedemo', ':picassodemo', ':dialog'

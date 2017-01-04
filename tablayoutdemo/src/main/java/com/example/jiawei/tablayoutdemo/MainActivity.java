@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             TabLayout.Tab tabCall = tablayout.getTabAt(i);
 //            tabCall.setIcon(iconsArr[i]);//只设置一个图标
 //            tabCall.setText(DATA[i]);//设置文字的颜色
-            tabCall.setCustomView(adapter.getTabView(i));//自定义的tab
+            tabCall.setCustomView(getTabView(i));//自定义的tab
         }
     }
 
@@ -119,18 +119,17 @@ public class MainActivity extends AppCompatActivity {
 
         }
         
-      
+    }
 
-        public View getTabView(int position){
-            View view = LayoutInflater.from(context).inflate(R.layout.tab_item, null);
-            TextView tv= (TextView) view.findViewById(R.id.textView);
-            mapView.put(position,tv);
-            tv.setText(DATA[position]);
-            tv.setTextColor(Color.RED);
-            ImageView img = (ImageView) view.findViewById(R.id.imageView);
-            img.setImageResource(iconsArr[position]);
-            return view;
-        }
+    public View getTabView(int position){
+        View view = LayoutInflater.from(context).inflate(R.layout.tab_item, null);
+        TextView tv= (TextView) view.findViewById(R.id.textView);
+        mapView.put(position,tv);
+        tv.setText(DATA[position]);
+        tv.setTextColor(Color.RED);
+        ImageView img = (ImageView) view.findViewById(R.id.imageView);
+        img.setImageResource(iconsArr[position]);
+        return view;
     }
     Map<Integer,TextView> mapView=new HashMap<Integer, TextView>();
 }

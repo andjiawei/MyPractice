@@ -8,12 +8,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/albumphotodemo" />
+            <option value="$PROJECT_DIR$/dialog" />
+            <option value="$PROJECT_DIR$/dialoganimation" />
             <option value="$PROJECT_DIR$/expandlistdemo" />
             <option value="$PROJECT_DIR$/fadingactionbardemo" />
             <option value="$PROJECT_DIR$/fragmenttabhost" />
             <option value="$PROJECT_DIR$/gaodelocation" />
             <option value="$PROJECT_DIR$/loginsoftinput" />
             <option value="$PROJECT_DIR$/mpchartdemo" />
+            <option value="$PROJECT_DIR$/ormlitedemo" />
+            <option value="$PROJECT_DIR$/picassodemo" />
             <option value="$PROJECT_DIR$/quxiananamation" />
             <option value="$PROJECT_DIR$/scrolistview" />
             <option value="$PROJECT_DIR$/tablayoutdemo" />
@@ -21,22 +26,7 @@
             <option value="$PROJECT_DIR$/verificode" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/expandlistdemo" />
-            <option value="$PROJECT_DIR$/fadingactionbardemo" />
-            <option value="$PROJECT_DIR$/fragmenttabhost" />
-            <option value="$PROJECT_DIR$/gaodelocation" />
-            <option value="$PROJECT_DIR$/loginsoftinput" />
-            <option value="$PROJECT_DIR$/mpchartdemo" />
-            <option value="$PROJECT_DIR$/quxiananamation" />
-            <option value="$PROJECT_DIR$/scrolistview" />
-            <option value="$PROJECT_DIR$/tablayoutdemo" />
-            <option value="$PROJECT_DIR$/testlocol" />
-            <option value="$PROJECT_DIR$/verificode" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

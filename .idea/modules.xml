@@ -3,12 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PracticeDemo.iml" filepath="$PROJECT_DIR$/PracticeDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/albumphotodemo/albumphotodemo.iml" filepath="$PROJECT_DIR$/albumphotodemo/albumphotodemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialog/dialog.iml" filepath="$PROJECT_DIR$/dialog/dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialoganimation/dialoganimation.iml" filepath="$PROJECT_DIR$/dialoganimation/dialoganimation.iml" />
       <module fileurl="file://$PROJECT_DIR$/expandlistdemo/expandlistdemo.iml" filepath="$PROJECT_DIR$/expandlistdemo/expandlistdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/fadingactionbardemo/fadingactionbardemo.iml" filepath="$PROJECT_DIR$/fadingactionbardemo/fadingactionbardemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragmenttabhost/fragmenttabhost.iml" filepath="$PROJECT_DIR$/fragmenttabhost/fragmenttabhost.iml" />
       <module fileurl="file://$PROJECT_DIR$/gaodelocation/gaodelocation.iml" filepath="$PROJECT_DIR$/gaodelocation/gaodelocation.iml" />
       <module fileurl="file://$PROJECT_DIR$/loginsoftinput/loginsoftinput.iml" filepath="$PROJECT_DIR$/loginsoftinput/loginsoftinput.iml" />
       <module fileurl="file://$PROJECT_DIR$/mpchartdemo/mpchartdemo.iml" filepath="$PROJECT_DIR$/mpchartdemo/mpchartdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ormlitedemo/ormlitedemo.iml" filepath="$PROJECT_DIR$/ormlitedemo/ormlitedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/picassodemo/picassodemo.iml" filepath="$PROJECT_DIR$/picassodemo/picassodemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/quxiananamation/quxiananamation.iml" filepath="$PROJECT_DIR$/quxiananamation/quxiananamation.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrolistview/scrolistview.iml" filepath="$PROJECT_DIR$/scrolistview/scrolistview.iml" />
       <module fileurl="file://$PROJECT_DIR$/tablayoutdemo/tablayoutdemo.iml" filepath="$PROJECT_DIR$/tablayoutdemo/tablayoutdemo.iml" />
